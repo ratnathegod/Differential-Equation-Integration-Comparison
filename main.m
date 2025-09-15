@@ -1,6 +1,5 @@
 %{
 Author: Ratnakaru Yalagathala
-Assignment:ASEN 2012 - Coding Challenge 2
 Creation Date: March 15 2025
 Inputs: AccurateDataSP25.mat , Function Handles and IC
 Outputs: Figures comparing Euler vs. Accurate Data and Euler vs. RK4 vs. Exact
@@ -137,3 +136,4 @@ function [x, y] = rk4_integration(f, init, xf, dx)
         y(i+1) = y(i) + dx*(k1 + 2*k2 + 2*k3 + k4)/6;
     end
 end
+
